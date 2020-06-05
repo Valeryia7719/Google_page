@@ -15,15 +15,23 @@ body {
     width: 100%;
     height: 100%;
     margin: 0px;
-    position: relative;
+    position: absolute;
 }
 
+header{
+    width: 100%;
+    height: 45px;
+}
 main{
-    height: 450px;
+    position: relative;
+    width: 100%;
+    height: 405px;
 }
 
 .top_links{
-    margin-left: 1000px;
+    margin-top: 5px;
+    float: right;
+    margin-right: 30px;
     height: 45px;
     display: flex;
 }
@@ -78,6 +86,7 @@ main{
     margin-left: 15px;
     border: 1px solid #4285f4;
     background-color: #4387fd; 
+    border-radius: 2px;
     color:#fff ;
     font-size: 13px;
     font-weight: bold;
@@ -99,6 +108,7 @@ center{
 
 .google_img {
     padding-top: 109px;
+    position: absolute;
     height: 92px;
     width: 272px;
 }
@@ -244,6 +254,7 @@ center{
 }
 
 footer{
+    width: 100%;
     margin-top: 46px;
     height: 80px;
     background: #f2f2f2;
