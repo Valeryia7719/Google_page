@@ -39,9 +39,10 @@ main{
 }
 
 .top_links{
-    margin-left: 1000px;
+    float: right;
     height: 45px;
     display: flex;
+    margin-right: 20px;
 }
 
 .email{
@@ -306,6 +307,10 @@ center{
     text-decoration: underline;
 }
 
+.links_right{
+    float: right;
+}
+
 .lk1{
     position: relative;
 }
@@ -326,16 +331,16 @@ center{
 }
 
 .lk5{
-    margin-left: 790px;
-    position: absolute;
+    margin-right: 20px;
+  
 }
 
 .lk6{
-    margin-left: 970px;
-    position: absolute;
+    margin-right: 20px;
+   
 }
 
 .lk7{
-    margin-left: 1050px;
-    position: absolute;
+    margin-right: 20px;
+   
 }
