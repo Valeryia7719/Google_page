@@ -11,14 +11,21 @@
     url(".ttf") format("truetype");
   }
 
-body {
+html,body {
+    height: 100%;
+    width: 100%;
     margin: 0px;
     position: relative;
 }
 
 .wrapper{
-    height: 100%;
-    width: 100%;
+    display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
 }
 
 header{
@@ -252,11 +259,11 @@ center{
     text-decoration: underline;
 }
 
-footer{
+.footer{
     width: 100%;
-    margin-top: 4.5%;
     height: 80px;
     background: #f2f2f2; 
+    flex: 0 0 auto;
 }
 
 .footer1{
@@ -292,7 +299,6 @@ footer{
 .ftlink1{
     color: #5f6368;
     text-decoration: none;
-    margin-bottom: 0px;
 }
 
 .ftlink1:hover{
@@ -300,26 +306,36 @@ footer{
     text-decoration: underline;
 }
 
+.lk1{
+    position: relative;
+}
+
 .lk2{
     margin-left: 20px;
+    position: absolute;
 }
 
 .lk3{
-    margin-left: 20px;
+    margin-left: 120px;
+    position: absolute;
 }
 
 .lk4{
-    margin-left: 20px;
+    margin-left: 220px;
+    position: absolute;
 }
 
 .lk5{
-    margin-left: 430px;
+    margin-left: 790px;
+    position: absolute;
 }
 
 .lk6{
-    margin-left: 20px;
+    margin-left: 970px;
+    position: absolute;
 }
 
 .lk7{
-    margin-left: 20px;
+    margin-left: 1050px;
+    position: absolute;
 }
